@@ -7,35 +7,83 @@
 body {
   margin: 20px;
   padding: 10px;
-  background-color: bisque;
+  background-color: rgba(241, 196, 255, 0.096);
 }
 
 .headline1 {
-  background-color: rgb(255, 196, 0);
+  background-color: rgba(255, 0, 255, 0.178);
   margin: 0 0 20px 0;
   text-align: center;
 }
 
+.image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 150px;
+  border-style: solid;
+  color: magenta;
+  opacity: 0.9;
+}
+
 a {
+  display: flex;
+  justify-content: flex-end;
   margin: 25px;
   color: brown;
 }
 
 .article1 {
-  background-color: antiquewhite;
+  background-color: rgba(249, 250, 215, 0.486);
   margin: 20px;
   padding: 20px;
-  border-style: double;
+  border-style: groove;
+  border-color: pink;
+  border-width: 20px;
 }
 .article2 {
   background-color: antiquewhite;
   margin: 20px;
   padding: 20px;
-  border-style: double;
+  border-style: groove;
+  border-color: pink;
+  border-width: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.headline {
+  font-size: 30px;
+}
+svg {
+  width: 30px;
+  height: 50px;
+}
+
+a {
+  color: black;
+}
+
+.socialcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0 0 10px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  height: 290px;
+  padding: 40px 0 0 35px;
+  box-shadow: rgba(0, 0, 0, 0.644) 0px 5px 15px;
+  background-color: rgba(255, 102, 0, 0.13);
 }
 
 .socialLinks {
   list-style: none;
   display: flex;
   gap: 2em;
+  width: 100px;
 }
