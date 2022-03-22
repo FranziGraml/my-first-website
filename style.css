@@ -7,7 +7,7 @@
 body {
   margin: 20px;
   padding: 10px;
-  background-color: rgba(241, 196, 255, 0.096);
+  background-color: rgba(214, 196, 255, 0.349);
 }
 
 .nav {
@@ -18,7 +18,7 @@ body {
 }
 
 .headline1 {
-  background-color: rgba(255, 0, 255, 0.178);
+  _background-color: rgba(255, 0, 255, 0.534);
   margin: 0 0 20px 0;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body {
   height: 15rem;
   border-radius: 150px;
   border-style: solid;
-  color: magenta;
+  color: black;
   opacity: 0.9;
 }
 
@@ -49,8 +49,8 @@ a {
   background-color: rgba(249, 250, 215, 0.486);
   margin: 20px;
   padding: 20px;
-  border-style: groove;
-  border-color: pink;
+  border-style: none;
+  border-color: black;
   border-width: 10px;
   min-width: 3rem;
 }
@@ -58,8 +58,8 @@ a {
   background-color: antiquewhite;
   margin: 20px;
   padding: 20px;
-  border-style: groove;
-  border-color: pink;
+  border-style: none;
+  border-color: yellow;
   border-width: 10px;
 }
 
@@ -70,24 +70,24 @@ a {
 }
 
 img {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
 }
 
 .headline {
   font-size: 30px;
-  color: red;
+  color: black;
 }
 .text {
-  color: red;
+  color: black;
 }
 
 .link {
-  color: red;
+  color: black;
 }
 svg {
-  width: 40px;
-  height: 60px;
+  width: 70px;
+  height: 50px;
 }
 
 a {
@@ -106,5 +106,20 @@ a {
   height: 290px;
   padding: 12px 0 0 30px;
   box-shadow: rgba(0, 0, 0, 0.76) 0px 5px 15px;
-  background-color: black;
+  background-color: white;
+}
+
+.socialcard2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0 0 10px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  height: 290px;
+  padding: 12px 0 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.76) 0px 5px 15px;
+  background-color: white;
 }
