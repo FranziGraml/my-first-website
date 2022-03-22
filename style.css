@@ -7,35 +7,119 @@
 body {
   margin: 20px;
   padding: 10px;
-  background-color: bisque;
+  background-color: rgba(214, 196, 255, 0.349);
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .headline1 {
-  background-color: rgb(255, 196, 0);
+  _background-color: rgba(255, 0, 255, 0.534);
   margin: 0 0 20px 0;
   text-align: center;
 }
 
+.image {
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 150px;
+  border-style: solid;
+  color: black;
+  opacity: 0.9;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 a {
-  margin: 25px;
+  display: flex;
+  justify-content: flex-end;
   color: brown;
 }
 
 .article1 {
-  background-color: antiquewhite;
+  background-color: rgba(249, 250, 215, 0.486);
   margin: 20px;
   padding: 20px;
-  border-style: double;
+  border-style: none;
+  border-color: black;
+  border-width: 10px;
+  min-width: 3rem;
 }
 .article2 {
   background-color: antiquewhite;
   margin: 20px;
   padding: 20px;
-  border-style: double;
+  border-style: none;
+  border-color: yellow;
+  border-width: 10px;
 }
 
-.socialLinks {
-  list-style: none;
+.Kontakte {
   display: flex;
-  gap: 2em;
+  list-style: none;
+  justify-content: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.headline {
+  font-size: 30px;
+  color: black;
+}
+.text {
+  color: black;
+}
+
+.link {
+  color: black;
+}
+svg {
+  width: 70px;
+  height: 50px;
+}
+
+a {
+  color: red;
+}
+
+.socialcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0 0 10px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  height: 290px;
+  padding: 12px 0 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.76) 0px 5px 15px;
+  background-color: white;
+}
+
+.socialcard2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0 0 10px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  height: 290px;
+  padding: 12px 0 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.76) 0px 5px 15px;
+  background-color: white;
 }
